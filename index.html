@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conselhos e Frases</title>
+    <script src="./vue.js"></script>
+    <script src="./script.js" defer></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@1/css/pico.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css">
+    <link rel="shortcut icon" href="./e-book.png" type="image/x-icon">
+
+</head>
+<body>
+    <div class="container">
+        <nav>
+            <ul>
+              <li><strong>Conselhos e Frases</strong></li>
+            </ul>
+            <ul>
+              <li><a href="https://github.com/nairoelsner" target="_blank"><i class="devicon-github-original"></i></a></li>
+            </ul>
+          </nav>
+    </div>
+
+
+    
+    <div id="app" class="container">
+        <h2>Press the button for a free advice</h2>
+        <button class="button" role="button" @click="getAdvice">Free advice</button>
+        <p>{{advice}}</p>
+    </div>
+
+    <br>
+
+    <div id="app2" class="container">
+        <h2>Pesquisar por autores</h2>
+        <form action="" id="form" onsubmit="return false">
+          <input type="text" name="autor" id="input" placeholder="Machado de Assis" style="width: 20rem;">
+          <button class="button" role="button" @click="getAutor">Pesquisar</button>
+        </form>
+        <p><i>{{info.texto}}</i></p>
+        <p v-if="info.texto"><b>-{{info.autor}}</b></p>
+    </div>
+</body>
+</html>
