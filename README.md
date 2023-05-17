@@ -4,6 +4,7 @@ Este é um projeto simples criado com o objetivo de treinar meu aprendizado em V
 ## Pré-requisitos
 - Navegador da web moderno
 - Conexão com a internet
+- [Clique aqui](https://nairoelsner.github.io/conselhos-e-frases/) para acessar a página web
 
 ## Instruções de Uso
 `1. Clone o repositório para o seu ambiente local`
