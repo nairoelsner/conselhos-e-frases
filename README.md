@@ -1,4 +1,4 @@
-# Meu Projeto Vue
+# Conselhos e Frases
 Este é um projeto simples criado com o objetivo de treinar meu aprendizado em Vue.js e consumo de APIs. Ele consiste em uma página web que exibe conselhos gratuitos e permite pesquisar frases por autores.
 
 ## Pré-requisitos
